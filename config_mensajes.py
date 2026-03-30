@@ -1,0 +1,1 @@
+TEXTOS_GUARDADOS = {'A': 'atención adjunto el informe ....', 'B': 'esto si funciona\n', 'C': ''}

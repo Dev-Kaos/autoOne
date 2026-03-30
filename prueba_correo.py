@@ -15,7 +15,7 @@ def main(page: ft.Page):
         """Escribe la lista actual en el archivo config.py"""
         with open("correos.py", "w", encoding="utf-8") as f:
             f.write(f"LISTA_CORREOS = {correos.LISTA_CORREOS}")
-        snack = ft.SnackBar(ft.Text("Lista actualizada en correos.py"))
+        snack = ft.SnackBar(ft.Text("Lista actualizada en config.py"))
         page.overlay.append(snack)
         snack.open = True
         page.update()
