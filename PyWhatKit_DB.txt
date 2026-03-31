@@ -1,0 +1,18 @@
+Date: 31/3/2026
+Time: 16:39
+Phone Number: +573017846018
+Image: C:\Users\SoporteTI\Documents\codes\autoOne\assets\reporte_captura.png
+Caption: Hola Melissa, adjunto reporte de pedidos actualizado al 31/03 16:39
+--------------------
+Date: 31/3/2026
+Time: 16:44
+Phone Number: +573017846018
+Image: C:\Users\SoporteTI\Documents\codes\autoOne\assets\reporte_captura.png
+Caption: Hola Melissa, adjunto el reporte de pedidos con mayor tiempo sin actualizar (31/03 16:44).
+--------------------
+Date: 31/3/2026
+Time: 16:59
+Phone Number: +573017846018
+Image: C:\Users\SoporteTI\Documents\codes\autoOne\assets\reporte_captura.png
+Caption: Hola Melissa, adjunto el reporte de pedidos con mayor tiempo sin actualizar (31/03 16:59).
+--------------------
