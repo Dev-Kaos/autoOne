@@ -67,7 +67,7 @@ def main(page: ft.Page):
             guardar_en_correos()
             actualizar_lista_visual()
 
-        def agregar_correo(e):
+        def agregar_correo(e: ft.ControlEvent):
             if txt_nuevo_correo.value:
                 correos.LISTA_CORREOS.append(txt_nuevo_correo.value)
                 txt_nuevo_correo.value = ""
@@ -92,6 +92,7 @@ def main(page: ft.Page):
             title=ft.Text("Destinatarios"),
             content=ft.Column(controls=[
                 lista_items,
+
                 ft.Row(controls=[txt_nuevo_correo, ft.IconButton(
                     ft.Icons.ADD, on_click=agregar_correo)]),
             ], tight=True, width=400),

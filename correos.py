@@ -1,1 +1,1 @@
-LISTA_CORREOS = ['manuelfernandovela@gmail.com', 'sirve', 'si sirve']
+LISTA_CORREOS = ['manuelfernandovela@gmail.com', 'sirve']

@@ -1,1 +1,1 @@
-TEXTOS_GUARDADOS = {'A': 'atención adjunto el informe ....', 'B': 'esto si funciona\n', 'C': ''}
+TEXTOS_GUARDADOS = {'A': 'poder subur', 'B': 'esto si funciona\n', 'C': ''}
