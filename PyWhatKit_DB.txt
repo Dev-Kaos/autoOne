@@ -16,3 +16,39 @@ Phone Number: +573017846018
 Image: C:\Users\SoporteTI\Documents\codes\autoOne\assets\reporte_captura.png
 Caption: Hola Melissa, adjunto el reporte de pedidos con mayor tiempo sin actualizar (31/03 16:59).
 --------------------
+Date: 1/4/2026
+Time: 8:13
+Phone Number: +573017846018
+Image: C:\Users\SoporteTI\Documents\codes\autoOne\assets\reporte_captura.png
+Caption: Hola, adjunto el reporte de cases sin avances. (01/04 08:13).
+--------------------
+Date: 1/4/2026
+Time: 8:14
+Phone Number: +573017846018
+Image: C:\Users\SoporteTI\Documents\codes\autoOne\assets\reporte_captura.png
+Caption: Hola, adjunto el reporte de cases sin avances. (01/04 08:14).
+--------------------
+Date: 1/4/2026
+Time: 8:16
+Phone Number: +573017846018
+Image: C:\Users\SoporteTI\Documents\codes\autoOne\assets\reporte_captura.png
+Caption: Hola, adjunto el reporte de cases sin avances. (01/04 08:16).
+--------------------
+Date: 1/4/2026
+Time: 8:17
+Phone Number: +573017846018
+Image: C:\Users\SoporteTI\Documents\codes\autoOne\assets\reporte_captura.png
+Caption: Hola, adjunto el reporte de cases sin avances. (01/04 08:17).
+--------------------
+Date: 1/4/2026
+Time: 8:32
+Group ID: J3BhNzzFU2EKjJDEPYceWg
+Image: C:\Users\SoporteTI\Documents\codes\autoOne\assets\reporte_captura.png
+Caption: Hola, adjunto el reporte de cases sin avances. (01/04 08:32).
+--------------------
+Date: 1/4/2026
+Time: 8:33
+Group ID: J3BhNzzFU2EKjJDEPYceWg
+Image: C:\Users\SoporteTI\Documents\codes\autoOne\assets\reporte_captura.png
+Caption: Hola, adjunto el reporte de cases sin avances. (01/04 08:33).
+--------------------

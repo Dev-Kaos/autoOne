@@ -14,6 +14,7 @@ ruta_captura = (base_path / "assets" / "reporte_captura.png").absolute()
 
 # Configuración de contacto
 NUMERO_WHATSAPP = "+573017846018"
+ID_GRUPO_WHATSAPP = "J3BhNzzFU2EKjJDEPYceWg"
 
 
 def formatear_tiempo(td: pd.Timedelta) -> str:
@@ -26,7 +27,7 @@ def formatear_tiempo(td: pd.Timedelta) -> str:
     return f"{dias} días, {horas:02d}:{minutos:02d}"
 
 
-def enviar_reporte_whatsapp(df: pd.DataFrame, ruta_img: Path, numero: str):
+def enviar_reporte_whatsapp(df: pd.DataFrame, ruta_img: Path, id_grupo: str):
     """Genera una captura del DataFrame y la envía por WhatsApp."""
     try:
         # Seleccionamos solo las columnas más importantes para la foto
@@ -46,21 +47,23 @@ def enviar_reporte_whatsapp(df: pd.DataFrame, ruta_img: Path, numero: str):
 
         # Exportar imagen
         dfi.export(df_styled, str(ruta_img))
+
         print(f"--- Captura generada en: {ruta_img} ---")
 
         # Mensaje de texto
         ahora = datetime.now().strftime('%d/%m %H:%M')
-        mensaje = f"Hola Melissa, adjunto el reporte de pedidos con mayor tiempo sin actualizar ({ahora})."
+        mensaje = f"Hola, adjunto el reporte de cases sin avances. ({ahora})."
 
         print("Abriendo WhatsApp Web... NO MUEVAS EL MOUSE NI CAMBIES DE VENTANA.")
 
         # Ajuste de tiempos:
         # wait_time=35 (espera a que cargue la página antes de pegar la imagen)
         kit.sendwhats_image(
-            receiver=numero,
+            # receiver=numero, # asi para numero unico
+            receiver=id_grupo,
             img_path=str(ruta_img),
             caption=mensaje,
-            wait_time=35
+            wait_time=10
         )
         print("--- Proceso de WhatsApp completado ---")
 
@@ -96,7 +99,8 @@ if archivo_entrada.exists():
         print(f"Archivo Excel generado: {archivo_salida.name}")
 
         # 3. LLAMADA A LA AUTOMATIZACIÓN
-        enviar_reporte_whatsapp(df_one, ruta_captura, NUMERO_WHATSAPP)
+        # enviar_reporte_whatsapp(df_one, ruta_captura, NUMERO_WHATSAPP)
+        enviar_reporte_whatsapp(df_one, ruta_captura, ID_GRUPO_WHATSAPP)
 
     except Exception as e:
         print(f"Error en el proceso: {str(e)}")
